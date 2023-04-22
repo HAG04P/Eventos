@@ -20,7 +20,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         detalles: resolve(__dirname, 'detalles.html'),
-        detales_eventos: resolve(__dirname, 'detalles-eventos.html'),
+        informacion: resolve(__dirname, 'informacion.html'),
         location: resolve(__dirname, 'location.html'),
         timeline: resolve(__dirname, 'limeline.html'),
       }

@@ -9,3 +9,7 @@ body {
 header {
     @apply bg-gray-800;
 }
+
+main {
+    @pply max-w-2xl;
+}

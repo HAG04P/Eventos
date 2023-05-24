@@ -14,7 +14,11 @@ export default defineConfig({
   base: env.mode === "production" ? "/Eventos/" : "/",
 
   build: {
+
+    target: "esnext",
+
     outDir: "docs",
+    
     assetsDir: "assets",
     rollupOptions: {
       input: {
